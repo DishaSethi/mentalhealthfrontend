@@ -10,7 +10,7 @@ const ChartComponent = () => {
   useEffect(() => {
     const fetchAnalysisHistory = async () => {
       try {
-        const response = await fetch("https://mentalhealthplatform.onrender.com/api/chatbot/analysisHistory", {
+        const response = await fetch("https://mentalhealthplatform.onrender.com/api/analysisHistory", {
           method: "GET",
           credentials: "include", // Important for session persistence
         });
